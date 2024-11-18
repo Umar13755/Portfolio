@@ -1,4 +1,5 @@
 import Hero from "../components/Hero";
+import Expertise from "@/components/Expertise";
 
 export default function Home() {
   return (
@@ -7,6 +8,8 @@ export default function Home() {
     // </div>
     <div className="lg:mx-20 mx-4 justify-center items-center min-h-screen">
       <Hero />
+
+      <Expertise />
     </div>
   );
 }
