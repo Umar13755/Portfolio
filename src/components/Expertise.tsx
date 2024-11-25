@@ -9,8 +9,8 @@ export default function Expertise() {
         </h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 items-center justify-items-center">
           <Image
-            src="/placeholder.svg?height=40&width=120"
-            alt="Milano"
+            src="/public/icons/react.svg"
+            alt="React Js"
             width={120}
             height={40}
             className="h-8 w-auto object-contain brightness-0 invert"
