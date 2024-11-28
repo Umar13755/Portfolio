@@ -10,7 +10,7 @@ export default function Hero() {
 
       <div className="lg:flex grid items-center justify-center my-10 gap-5 text-white">
         {/* Profile Card */}
-        <div className="bg-black p-10 w-full rounded-[3rem] grid grid-cols lg:sapce-y-0 space-y-3 ">
+        <div className="bg-black p-10 w-full rounded-[3rem] grid grid-cols lg:sapce-y-0 space-y-6 ">
           <div className="lg:flex lg:justify-between lg:space-y-0 space-y-4">
             {/* left Section */}
             <div className="flex flex-row gap-4">
