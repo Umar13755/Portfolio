@@ -3,11 +3,12 @@ import Image from "next/image";
 export default function Expertise() {
   const icons = [
     { id: "1", alt: "React JS", src: "/react.svg" },
-    { id: "2", alt: "Next js", src: "/next.svg" },
+    { id: "2", alt: "Next.js", src: "/next.svg" },
     { id: "3", alt: "Tailwind CSS", src: "/tailwind.svg" },
-    { id: "4", alt: "Node.js", src: "/next.svg" },
-    { id: "5", alt: "JavaScript", src: "/next.svg" },
-    { id: "6", alt: "TypeScript", src: "/next.svg" },
+    { id: "4", alt: "Node.js", src: "/node.svg" },
+    { id: "4", alt: "Three js", src: "/mongoDB.svg" },
+    { id: "5", alt: "JavaScript", src: "/javascript.svg" },
+    { id: "6", alt: "TypeScript", src: "/typescript.svg" },
   ];
 
   return (
@@ -32,7 +33,7 @@ export default function Expertise() {
               <div
                 className="text-nowrap absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-full 
                   bg-black text-white text-xs py-1 px-2 rounded opacity-0 group-hover:opacity-100 
-                  transition-opacity duration-300"
+                  transition-opacity duration-300 z-50"
               >
                 {icon.alt}
               </div>
@@ -40,7 +41,9 @@ export default function Expertise() {
           ))}
         </div>
       </div>
-      <div className="lg:hidden absolute left-auto right-30 top-0 h-[400px] w-[400px] -translate-x-[30%] translate-y-[250%] rounded-full bg-[rgba(160,160,160,0.5)] opacity-50 blur-[50px]"></div>
+
+      {/* Background Effect
+      <div className="lg:hidden absolute left-auto right-30 top-0 h-[400px] w-[400px] -translate-x-[30%] translate-y-[250%] rounded-full bg-[rgba(160,160,160,0.5)] opacity-50 blur-[50px] pointer-events-none"></div> */}
     </section>
   );
 }
