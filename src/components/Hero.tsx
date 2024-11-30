@@ -19,7 +19,7 @@ export default function Hero() {
                 className="relative flex h-10 w-10 shrink-0 overflow-hidden rounded-full"
               />
               <div>
-                <h2 className="font-medium">Hey, I'm Mika.</h2>
+                <h2 className="font-medium">Hey, I'm Umar.</h2>
                 <p className="font-medium text-sm text-[#9b9b9b]">
                   Software Engineer
                 </p>
@@ -38,15 +38,13 @@ export default function Hero() {
 
           {/* Text Section */}
           <div className="space-y-5 text-balance">
-            <h2 className="font-medium text-4xl">
+            <h2 className="font-medium lg:text-4xl text-3xl">
               Passionate about crafting seamless, modern interfaces with
               innovative tech.
             </h2>
-            <p className="text-sm font-normal text-pretty opacity-65">
-              Hey, I'm <b>Mika</b>, welcome to my world. I love building
-              beautiful, timeless websites & digital experiences with Framer. I
-              have experience with Next Js & React JS for buidling modern web
-              apps
+            <p className="text-md font-normal text-pretty opacity-65">
+              Hey, I'm <b><i>Khayyam</i></b>, welcome to my world. I love building
+              beautiful, timeless websites & digital experiences with modern technologies.
             </p>
           </div>
         </div>
