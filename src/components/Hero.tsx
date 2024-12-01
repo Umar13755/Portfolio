@@ -5,8 +5,8 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <>
-      <div className="absolute bottom-auto left-auto right-50 top-0 h-[400px] w-[400px] -translate-x-[30%] translate-y-[20%] rounded-full bg-[rgba(160,160,160,0.5)] opacity-30 blur-[80px]"></div>
-      <div className="absolute bottom-auto left-auto right-10 top-0 h-[400px] w-[400px] -translate-x-[30%] translate-y-[20%] rounded-full bg-[rgba(160,160,160,0.5)]  opacity-30 blur-[80px]"></div>
+      <div className="absolute bottom-auto left-auto right-50 top-0 h-[400px] w-[400px] -translate-x-[30%] translate-y-[20%] rounded-full bg-[rgba(160,160,160,0.5)] opacity-40 blur-[80px]"></div>
+      <div className="absolute bottom-auto left-auto right-10 top-0 h-[400px] w-[400px] -translate-x-[30%] translate-y-[20%] rounded-full bg-[rgba(160,160,160,0.5)]  opacity-40 blur-[80px]"></div>
 
       <div className="lg:flex grid items-center justify-center my-10 gap-5 text-white">
         {/* Profile Card */}

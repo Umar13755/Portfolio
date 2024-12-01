@@ -3,12 +3,17 @@ import Image from "next/image";
 export default function Expertise() {
   const icons = [
     { id: "1", alt: "React JS", src: "/react.svg" },
-    { id: "2", alt: "Next.js", src: "/next.svg" },
+    { id: "2", alt: "Next Js", src: "/next.svg" },
     { id: "3", alt: "Tailwind CSS", src: "/tailwind.svg" },
     { id: "4", alt: "Node.js", src: "/node.svg" },
-    { id: "4", alt: "Three js", src: "/mongoDB.svg" },
+    { id: "4", alt: "Three JS", src: "/threejs.svg" },
     { id: "5", alt: "JavaScript", src: "/javascript.svg" },
-    { id: "6", alt: "TypeScript", src: "/typescript.svg" },
+    { id: "7", alt: "TypeScript", src: "/typescript.svg" },
+    { id: "8", alt: "MySQL", src: "/sql.svg" },
+    { id: "9", alt: "MongoDB", src: "/mongodb.svg" },
+    { id: "10", alt: "Php", src: "/php.svg" },
+    { id: "11", alt: "Wordpress", src: "/wordpress.svg" },
+    { id: "12", alt: "Figma", src: "/figma.svg" },
   ];
 
   return (
