@@ -12,8 +12,7 @@ export default function Expertise() {
     { id: "8", alt: "MySQL", src: "/sql.svg" },
     { id: "9", alt: "MongoDB", src: "/mongodb.svg" },
     { id: "10", alt: "Php", src: "/php.svg" },
-    { id: "11", alt: "Wordpress", src: "/wordpress.svg" },
-    { id: "12", alt: "Figma", src: "/figma.svg" },
+
   ];
 
   return (
@@ -47,8 +46,6 @@ export default function Expertise() {
         </div>
       </div>
 
-      {/* Background Effect
-      <div className="lg:hidden absolute left-auto right-30 top-0 h-[400px] w-[400px] -translate-x-[30%] translate-y-[250%] rounded-full bg-[rgba(160,160,160,0.5)] opacity-50 blur-[50px] pointer-events-none"></div> */}
     </section>
   );
 }

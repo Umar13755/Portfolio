@@ -5,8 +5,9 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <>
-      <div className="absolute bottom-auto left-auto right-50 top-0 h-[400px] w-[400px] -translate-x-[30%] translate-y-[20%] rounded-full bg-[rgba(160,160,160,0.5)] opacity-40 blur-[80px]"></div>
-      <div className="absolute bottom-auto left-auto right-10 top-0 h-[400px] w-[400px] -translate-x-[30%] translate-y-[20%] rounded-full bg-[rgba(160,160,160,0.5)]  opacity-40 blur-[80px]"></div>
+      {/* <div className="absolute bottom-auto left-auto right-50 top-0 h-[400px] w-[400px] -translate-x-[30%] translate-y-[20%] rounded-full bg-[rgba(160,160,160,0.5)] opacity-40 blur-[80px]"></div>
+      <div className="absolute bottom-auto left-auto right-10 top-0 h-[400px] w-[400px] -translate-x-[30%] translate-y-[20%] rounded-full bg-[rgba(160,160,160,0.5)]  opacity-40 blur-[80px]"></div> */}
+      
 
       <div className="lg:flex grid items-center justify-center my-10 gap-5 text-white">
         {/* Profile Card */}
@@ -19,7 +20,7 @@ export default function Hero() {
                 className="relative flex h-10 w-10 shrink-0 overflow-hidden rounded-full"
               />
               <div>
-                <h2 className="font-medium">Hey, I'm Umar.</h2>
+                <h2 className="font-medium">Hey, I'm Mika.</h2>
                 <p className="font-medium text-sm text-[#9b9b9b]">
                   Software Engineer
                 </p>
@@ -43,7 +44,7 @@ export default function Hero() {
               innovative tech.
             </h2>
             <p className="text-md font-normal text-pretty opacity-65">
-              Hey, I'm <b><i>Khayyam</i></b>, welcome to my world. I love building
+              Hey, I'm <b><i>Mika</i></b>, welcome to my world. I love building
               beautiful, timeless websites & digital experiences with modern technologies.
             </p>
           </div>
