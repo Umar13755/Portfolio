@@ -20,7 +20,7 @@ export default function Hero() {
                 className="relative flex h-10 w-10 shrink-0 overflow-hidden rounded-full"
               />
               <div>
-                <h2 className="font-medium">Hey, I'm Mika.</h2>
+                <h2 className="font-medium">Hey, I'm Khayyam.</h2>
                 <p className="font-medium text-sm text-[#9b9b9b]">
                   Software Engineer
                 </p>
@@ -44,17 +44,17 @@ export default function Hero() {
               innovative tech.
             </h2>
             <p className="text-md font-normal text-pretty opacity-65">
-              Hey, I'm <b><i>Mika</i></b>, welcome to my world. I love building
-              beautiful, timeless websites & digital experiences with modern technologies.
+              Hey, I'm <b><i>Umar Khayyam</i></b>, welcome to my world. I love building
+              beautiful, timeless software applications & digital experiences with modern technologies.
             </p>
           </div>
         </div>
 
         {/* Picture  */}
-        <div className="bg-black/30 rounded-[3rem] overflow-hidden w-full max-w-xs mx-auto">
+        <div className="bg-black/30 rounded-[3rem] overflow-hidden w-full max-w-lg lg:max-w-xs mx-auto">
           <div className="relative aspect-square">
             <Image
-              src="/dp.png"
+              src="/dp.jpg"
               alt="Profile picture"
               fill
               sizes="(max-width: 24rem) 100vw, 24rem"

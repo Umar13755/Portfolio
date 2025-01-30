@@ -3,7 +3,7 @@ import { Button } from "./ui/Button";
 export default function WorkCard() {
   return (
     <div className="text-white my-10">
-      <div className="p-6 bg-[#000] rounded-3xl grid lg:grid-cols-2 gap-6 items-center">
+      <div className="p-6 bg-[#000] shadow-xl rounded-3xl grid lg:grid-cols-2 gap-6 items-center">
         {/* Image Section */}
         <div className="flex justify-center">
           <img
